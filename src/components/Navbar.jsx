@@ -4,7 +4,7 @@ import "../styles/Navbar.scss";
 import "@fontsource/fira-code";
 
 
-const Homepage = () => {
+const Homepage = (props) => {
   return (
     <>
       <div className="nav-bar">
@@ -13,10 +13,10 @@ const Homepage = () => {
           <text className="polygon-text" x="14" y="28" fill="white">K</text>
         </svg>
         <div className="slideInFromRight">
-          <button className="nav-buttons first">About</button>
-          <button className="nav-buttons second">Experience</button>
-          <button className="nav-buttons third">Work</button>
-          <button className="nav-buttons resume">Resume</button>
+          <button onClick={props.click} className="nav-buttons first">About</button>
+          <button onClick={props.onClick} className="nav-buttons second">Work</button>
+          <button className="nav-buttons third">Experience</button>
+          <a href="https://resume.creddle.io/resume/90ahh4140v" target="_blank" rel="noopener noreferrer"><button className="nav-buttons resume">Resume</button></a>
         </div>
       </div>
     </>
