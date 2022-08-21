@@ -13,9 +13,9 @@ const Homepage = (props) => {
           <text className="polygon-text" x="14" y="28" fill="white">K</text>
         </svg>
         <div className="slideInFromRight">
-          <button onClick={props.click} className="nav-buttons first">About</button>
-          <button onClick={props.onClick} className="nav-buttons second">Work</button>
-          <button className="nav-buttons third">Experience</button>
+          <button onClick={props.aboutOnClick} className="nav-buttons first">About</button>
+          <button onClick={props.workOnClick} className="nav-buttons second">Work</button>
+          <button onClick={props.experienceOnClick} className="nav-buttons third">Experience</button>
           <a href="https://resume.creddle.io/resume/90ahh4140v" target="_blank" rel="noopener noreferrer"><button className="nav-buttons resume">Resume</button></a>
         </div>
       </div>

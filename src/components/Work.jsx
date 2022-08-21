@@ -4,7 +4,7 @@ import '../styles/Work.scss';
 
 const Work = (props) => {
   return (
-    <div ref={props.refProp} className='main-work'>
+    <div ref={props.myWorkRef} className='main-work'>
       <h2 className='work-title'>Some Apps I've Built </h2>
       <div className='my-info'>Throughout the time span of Lighthouse Labs bootcamp, I was required to complete several projects to practice coding and get more comfortable with it. In addition to that, I did a number of simpleer apps on my own to practice specific implementations. <br /> <br />There are several apps on my github and here are a few:</div>
       <br />
