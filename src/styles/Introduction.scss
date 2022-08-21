@@ -1,18 +1,16 @@
 .intro {
-  font-family: "Fira Code", monospace;
+  // font-family: "Fira Code", monospace;
   width: 70%;
-  // height: 60vh;
   margin: auto;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
+  letter-spacing: 0.03em;
 }
 
 .hi-msg {
-  animation: 1.5s ease-out 1s 1 slideInFromLeft;
+  font-family: "Fira Code", monospace;
+  animation: 1.5s ease-out 0s 1 slideInFromLeft;
   margin-left: 6px;
   margin-top: 4em;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 20px;
   font-weight: 400;
   color: #64ffda;
@@ -20,23 +18,24 @@
 }
 
 .name {
-  animation: 1.5s ease-out 1.2s 1 slideInFromLeft;
-  font-size: 60px;
+  animation: 1.5s ease-out 0s 1 slideInFromLeft;
+  font-size: 70px;
   color: #ccd6f6;
   margin: 0;
-  letter-spacing: 0.1em;
 }
 
 .passion {
-  animation: 1.5s ease-out 1.4s 1 slideInFromLeft;
-  font-size: 45px;
+  animation: 1.5s ease-out 0s 1 slideInFromLeft;
+  font-size: 55px;
   margin-top: 0;
   padding-top: 10px;
   color: #8892b0;
+  margin-bottom: 30px;
 }
 
 .small-story {
-  animation: 1.5s ease-out 1.6s 1 slideInFromLeft;
+  font-family: "Fira Code", monospace;
+  animation: 1.5s ease-out 0s 1 slideInFromLeft;
   max-width: 600px;
   font-size: 20px;
   color: #8892b0;
@@ -44,36 +43,67 @@
 
 @keyframes slideInFromLeft {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
   }
   100% {
     transform: translateX(0);
   }
 }
 
-.contact-icons {
-  // margin-top: 2em;
-  color: #ccd6f6;
+@keyframes rotateEmail {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(90);
+  }
 }
 
-.test {
-  margin: 6em;
-  // margin: 2em;
+.contact-icons,
+.contact-email {
+  color: #ccd6f6;
+
+  &.contact-icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-bottom: 10px;
+  }
+
+  &.contact-email {
+    font-family: "Fira Code", monospace;
+    animation: 1.5s ease-out 0s 1 rotateEmail;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    transform: rotate(+90deg);
+  }
+}
+
+.git:hover,
+.linked:hover {
+  color: #64ffda;
+  transform: scale(1.3);
+}
+
+.contact {
+  width: 100%;
+  margin: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  position: fixed;
 }
 
 .line {
-  // display: inline-block;
-  width: 100%;
-  border-bottom: 1px solid #ccd6f6;
+  border-left: 1px solid #ccd6f6;
+  height: 90px;
 }
-// .github::before {
-//   Content: "";
-//   width: 300px;
-//   height: 90px;
-//   background-color: #ccd6f6;
-//   color: #ccd6f6;
-// }
+
+.lines-links {
+  animation: 1.8s ease-out 0s 1 slideInFromLeft;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
