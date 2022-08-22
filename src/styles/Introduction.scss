@@ -129,7 +129,7 @@
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 425px) {
   .hi-msg {
     font-size: 14px;
   }
@@ -143,30 +143,30 @@
     font-size: 14px;
   }
   .contact-email {
-    font-size: 10px;
-  }
-  .contact-icons {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .hi-msg {
-    font-size: 12px;
-  }
-  .name {
-    font-size: 30px;
-  }
-  .passion {
-    font-size: 20px;
-  }
-  .small-story {
-    font-size: 12px;
-  }
-  .contact-email {
     font-size: 8px;
   }
   .contact-icons {
     font-size: 10px;
   }
 }
+
+// @media only screen and (max-width: 280px) {
+//   .hi-msg {
+//     font-size: 12px;
+//   }
+//   .name {
+//     font-size: 30px;
+//   }
+//   .passion {
+//     font-size: 20px;
+//   }
+//   .small-story {
+//     font-size: 12px;
+//   }
+//   .contact-email {
+//     font-size: 8px;
+//   }
+//   .contact-icons {
+//     font-size: 10px;
+//   }
+// }
