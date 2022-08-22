@@ -9,7 +9,7 @@ const Homepage = (props) => {
   return (
     <>
       <div className="nav-bar">
-        <svg>
+        <svg className="test">
           <polygon points="50 3,100 28,100 75, 50 100,3 75,3 25" />
           <text className="polygon-text" x="14" y="28" fill="white">K</text>
         </svg>
