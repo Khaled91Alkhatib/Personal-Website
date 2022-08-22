@@ -3,6 +3,7 @@ import React from "react";
 import "../styles/Navbar.scss";
 import "@fontsource/fira-code";
 
+import pdf from '../Resume.pdf'
 
 const Homepage = (props) => {
   return (
@@ -16,7 +17,7 @@ const Homepage = (props) => {
           <button onClick={props.aboutOnClick} className="nav-buttons first">About</button>
           <button onClick={props.workOnClick} className="nav-buttons second">Work</button>
           <button onClick={props.experienceOnClick} className="nav-buttons third">Experience</button>
-          <a href="https://resume.creddle.io/resume/90ahh4140v" target="_blank" rel="noopener noreferrer"><button className="nav-buttons resume">Resume</button></a>
+          <a href={pdf} target="_blank" rel="noopener noreferrer"><button className="nav-buttons resume">Resume</button></a>
         </div>
       </div>
     </>
