@@ -38,7 +38,7 @@
 }
 
 .other-app-with-image {
-  padding-top: 8em;
+  padding-top: 6em;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -83,18 +83,21 @@ a {
 
 @media only screen and (max-width: 1024px) {
   .app-with-image {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .other-app-with-image {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .third-app {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .work-images {
     height: auto;
   }
   .app-details, .other-app-details {
-    margin: 2em 0 0 0;
+    margin: 0;
+  }
+  .app-desc {
+    margin-bottom: 2em;
   }
 }

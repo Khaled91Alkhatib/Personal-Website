@@ -92,11 +92,12 @@ polygon {
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 400px) {
   .nav-buttons {
-    font-size: 10px;
+    font-size: 8px;
+    padding: 2px;
   }
   .nav-bar {
-    padding: 0 30px;
+    padding: 0 11px;
   }
 }
