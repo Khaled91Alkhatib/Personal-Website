@@ -78,3 +78,25 @@ polygon {
 .slideInFromRight {
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
+
+@media only screen and (max-width: 768px) {
+  .first::before, .second::before, .third::before {
+    margin-right: 0;
+  }
+  .nav-buttons {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .resume {
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .nav-buttons {
+    font-size: 10px;
+  }
+  .nav-bar {
+    padding: 0 30px;
+  }
+}
