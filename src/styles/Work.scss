@@ -24,7 +24,7 @@
 }
 
 .work-images {
-  height: 300px;
+  width: 50%;
   border-radius: 5px;
 }
 
@@ -92,7 +92,7 @@ a {
     flex-direction: column-reverse;
   }
   .work-images {
-    height: auto;
+    width: 100%;
   }
   .app-details, .other-app-details {
     margin: 0;
