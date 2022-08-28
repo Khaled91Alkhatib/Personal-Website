@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 60px;
-  height: 100px;
+  height: 90px;
 }
 
 svg {
@@ -80,6 +80,27 @@ polygon {
   text-align: center;
 }
 
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccd6f6;
+  font-family: "Fira Code", monospace;
+  font-size: 12px;
+  background-color: rgb(28, 28, 109);
+  position: sticky;
+  top:  0%;
+}
+
+.email {
+  padding-right: 21px;
+}
+
+.git-linkedin {
+  color: white;
+  font-size: 35px;
+}
+
 @media only screen and (max-width: 768px) {
   .first::before, .second::before, .third::before {
     margin-right: 0;
@@ -104,8 +125,11 @@ polygon {
     margin: auto;
     display: block;
   }
-  .test {
+  .svg-icon {
     padding-top: 20px;
     padding-left: 43%;
+  }
+  .contact-details {
+    margin-top: 20px;
   }
 }
