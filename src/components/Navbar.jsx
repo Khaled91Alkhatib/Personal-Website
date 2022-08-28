@@ -21,9 +21,9 @@ const Homepage = (props) => {
         </div>
       </div>
       <div className="contact-details">
-        <i className="fa fa-github git-linkedin"></i>
+        <a href="https://github.com/Khaled91Alkhatib" target="_blank" rel="noopener noreferrer"><i className="fa fa-github git-linkedin"></i></a>
         <div className="email">khaledkhatib91@hotmail.com</div>
-        <i className="fa fa-linkedin git-linkedin"></i>
+        <a href="https://www.linkedin.com/in/khaledalkhatib/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin git-linkedin"></i></a>
       </div>
     </>
   );
