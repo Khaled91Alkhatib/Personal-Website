@@ -7,6 +7,7 @@ import Work from './Work';
 import Experience from './Experience'
 
 import "../styles/Homepage.scss"
+import Footer from './Footer';
 const Homepage = () => {
   const myWorkRef = useRef(null)
   const myExperienceRef = useRef(null)
@@ -29,6 +30,7 @@ const Homepage = () => {
       <AboutMe myAboutRef={myAboutRef} />
       <Work myWorkRef={myWorkRef} />
       <Experience myExperienceRef={myExperienceRef} />
+      <Footer />
     </div>
   );
 };
