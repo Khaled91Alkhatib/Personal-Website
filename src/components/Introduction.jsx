@@ -20,13 +20,6 @@ const Introduction = () => {
         <h3 className="passion">I bring ideas to life in the browser.</h3>
         <div className='small-story'>I am a dentist who decided to take a leap of faith and transition into a front end web developer.</div>
       </div>
-      {/* <div className='contact'>
-        <div className='lines-links contact-icons'>
-          <a href='https://github.com/Khaled91Alkhatib' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-github" className='contact-icons git' /></a>
-          <a href='https://www.linkedin.com/in/khaledalkhatib/' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-linkedin" className='contact-icons linked' /></a>
-        </div>
-        <div className='contact-email'>khaledkhatib91@hotmail.com</div>
-      </div> */}
     </>
   );
 };
