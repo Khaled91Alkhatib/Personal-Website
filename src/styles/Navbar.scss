@@ -98,12 +98,12 @@ polygon {
 }
 
 .email {
-  padding-right: 21px;
+  padding: 20px;
 }
 
 .git-linkedin {
   color: white;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -138,9 +138,6 @@ polygon {
     margin-top: 20px;
   }
   .git-linkedin {
-    font-size: 27px;
+    font-size: 15px;
   }
-  .email {
-    padding-right: 11px;
-  }  
 }
